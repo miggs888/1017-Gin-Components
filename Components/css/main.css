@@ -27,3 +27,11 @@ img {
     border: solid .5px grey;
 
 }
+.nav {
+    font-family: var(--font-serif);
+    color: var(--blue);
+    list-style: none;
+    font-style: italic;
+    font-size: 120%;
+
+}

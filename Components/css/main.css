@@ -14,3 +14,16 @@ html {
     box-sizing: inherit;
   }
 
+body {
+    font-family: var(--font-serif);
+    line-height: 1.4;
+}
+
+img {
+    border: solid .5px grey; 
+}
+
+.component__code {
+    border: solid .5px grey;
+
+}

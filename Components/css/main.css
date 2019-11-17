@@ -1,0 +1,16 @@
+:root {
+    --font-serif: kings-caslon-display, serif;
+    --font-sans-serif: prohibition, sans-serif;
+    --black: #000;
+    --grey: #c4c6c8;
+    --white: #fff;
+    --blue: #006391;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+

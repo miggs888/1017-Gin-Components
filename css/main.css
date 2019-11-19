@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'arenoregular';
-    src: url('../fonts/Areno.otf') format('woff2'),
-         url('../fonts/areno.woff') format('woff');
+    src: url('../components/fonts/Areno.otf') format('woff2'),
+         url('../components/fonts/areno.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

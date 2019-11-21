@@ -51,12 +51,7 @@ h3 {
     background-color: var(--blue);
     padding: 5px;
 }
-h4 {
-    font-family: var(--font-headings);
-    color: var(--blue);
-    letter-spacing: 1px;
-    font-size: 110%;
-}
+
 .story {
     font-family: var(--font-serif);
     color: var(--grey-dark);
@@ -69,7 +64,7 @@ a {
     background-color: var(--blue);
     padding: 20px;
 }
-.buttons {
+.button {
     color: var(--white);
     background-color: var(--blue);
     border: solid 1px white;

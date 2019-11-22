@@ -74,7 +74,7 @@ a {
     text-decoration: none;
     display: inline-block;
     background-color: var(--blue);
-    padding: 20px;
+    color: inherit;
 }
 .footer__text {
     font-family: var(--font-headings);
@@ -84,6 +84,31 @@ a {
     color: var(--blue);
     letter-spacing: 1px;
     font-size: 110%;
+}
+.body__ingredients {
+    font-family: var(--font-serif);
+    color: var(--grey-light);
+    font-style: italic;
+}
+.body__ingredients_li {
+    font-family: var(--font-serif);
+    color: var(--blue);
+    font-style: italic;
+    list-style: none;
+}
+
+.recipe {
+    /**display: flex;**/
+    max-width: 50%;
+}
+.ingredients_flex {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+.instructions_flex {
+    /**display: flex;**/
+    text-align: left;
 }
 .button {
     font-family: var(--font-headings);
@@ -103,4 +128,12 @@ a {
     color: var(--white);
     letter-spacing: 2px;
     font-size: 110%;
+}
+
+.story__footer__masthead {
+    font-family: var(--font-serif);
+    font-size: 80%;
+    letter-spacing: -.1px;
+    color: var(--white); 
+    
 }

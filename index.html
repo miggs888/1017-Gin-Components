@@ -12,6 +12,23 @@
   </head>
 
   <body>
+        <div class="pagewrap">
+        <article class="sidebar">
+                <ul class="sidebarlist">
+                    <li>Typography<ul>
+                        <li>Body</li>
+                        <li>Nav Bar</li>
+                        <li>Headings</li>
+                        <li>Recipes</li>
+                        <li>Process</li>
+                        <li>footer</li> </ul> </li>
+                    <li>Images<ul>
+                        <li>Background</li>
+                        <li>Body</li>
+                        <li>Footer</li> </ul> </li>
+                </ul>
+        </article>
+    <div class="bodywrap">
       <h1>1017 Gin Web Components</h1>
       <div class="typography">
         <h2>Typography Defaults</h2>
@@ -69,21 +86,33 @@
                 srcset="components/img/recipe.png 2x"
                 src="components/img/recipe.png" alt="heading screenshot">
             <div class="component__code">
-                <div class="recipe">
                 <p class="story">Featured Recipe</p>
                 <p class="body__text">The Basil Gimlet</p>
-                <div class="ingredients_flex">
-                        <p class="body__ingredients">Ingredients</p>
-                        <ul class="body__ingredients_list"></ul>
-                            <li class="body__ingredients_li">- 2 oz 1017 Gin</li>
-                            <li class="body__ingredients_li">- .75 oz fresh lime juice</li>
-                            <li class="body__ingredients_li">- .5oz simple syrup</li>
-                            <li class="body__ingredients_li">- 2-3 fresh basil leaves</li></ul>
-                    </div>
-                    <div class="instructions_flex">
-                        <p class="body__ingredients">Instructions</p>
-                        <p>Add ingredients into shaker with ice. Shake well, then strain into a chilled cocktail glass. Garnish with basil leaves to taste.</p>
-                    </div>
+                <div class="container">
+                        <div class="item item1">Ingredients</div>
+                        <div class="item item2">- 2 oz 1017 Gin</div>
+                        <div class="item item3">- .75 oz fresh lime juice</div>
+                        <div class="item item4">- .5oz simple syrup</div>
+                        <div class="item item5">- 2-3 fresh basil leaves</div>
+                        <div class="item item6">Instructions</div>
+                        <div class="item item7">Add ingredients into shaker with ice. Shake well, then strain into a chilled cocktail glass. Garnish with basil leaves to taste.</div>
+                </div>
+            </div>
+        </article>
+
+        <article class="component">
+            <h3 class="headings">process</h3>
+            <img
+                srcset="components/img/processes.png 2x"
+                src="components/img/processes.png" alt="heading screenshot">
+            <div class="component__code">
+                <div class="container__process">
+                        <div class="itemp itemp1">01</div>
+                        <div class="itemp itemp2">02</div>
+                        <div class="itemp itemp3">03</div>
+                        <div class="itemp itemp4">100% pure cane sugar is fermented to create the alcohol base for the gin. Like anything else, great things are built upon solid foundations.</div>
+                        <div class="itemp itemp5">The Distillery. New life for an old barn.</div>
+                        <div class="itemp itemp6">What’s a good distillery without a great cat?</div>
                 </div>
             </div>
         </article>
@@ -122,19 +151,64 @@
             </article>
     </div>
     <div class="images">
-            <h2>Images</h2>
-            <article class="component">
-                <h3>background</h3>
-                
+        <h2>Images</h2>
+        <article class="component">
+            <h3>background</h3>
+            <article class="component__img">
+                <img
+                    srcset="components/img/home_screenshot.png 3x"
+                    src="components/img/home_screenshot.png" alt="home page screenshot">
+                <div class="component__img__background">
+                    <img class="img_house"
+                    srcset="components/img/background_house.jpg 2x"
+                    src="components/img/background_house.jpgg" alt="distillery house image">
+                    <img class="img_gin"
+                    srcset="components/img/background_gin.jpg 2x"
+                    src="components/img/background_gin.jpgg" alt="1017 gin bottle">
+                </div>
             </article>
+        </article>
     
-            <article class="component">
-                <h3>body</h3>
+        <article class="component">
+            <h3>body</h3>
+            <article class="component__img">
+                <img
+                    srcset="components/img/body_img_process.png 2x"
+                    src="components/img/body_img_process.png" alt="process image screenshot">
+                <div class="component__img__process">
+                    <img class="img_drums"
+                    srcset="components/img/body_img_process_drums.jpg 2x"
+                    src="components/img/body_img_process_drums.jpg" alt="gin drums">
+                    <img class="img_floorplan"
+                    srcset="components/img/body_img_process_floorplan.jpg 2x"
+                    src="components/img/body_img_process_floorplan.jpg" alt="distillery floorplan">
+                    <img class="img_cat"
+                    srcset="components/img/body_img_process_cat.jpg 2x"
+                    src="components/img/body_img_process_cat.jpg" alt="distillery cat">
+                <p class="process1">01</p>
+                <p class="process2">02</p>
+                <p class="process3">03</p>
+                </div>
+            </article>
+            <article class="component__img">
+                    <img
+                        srcset="components/img/body_img_house.png 2x"
+                        src="components/img/body_img_house.png" alt="machinery photo">
+                    <div class="component__img__process">
+                        <img class="img_drums"
+                        srcset="components/img/body_img_machine2.jpg 2x"
+                        src="components/img/body_img_machine2.jpg" alt="gin machinery">
+                        <img class="img_floorplan"
+                        srcset="components/img/body_img_machine1.jpg 2x"
+                        src="components/img/body_img_machine1.jpg" alt="gine machinery 2">
+                    </div>
+                </article>
+        </article>
+        <article class="component">
+            <h3>footer</h3>
                     
-            </article>
-            <article class="component">
-                <h3>footer</h3>
-                        
-            </article>
+        </article>
         </div>
+    </div>
+</div>
   </body>

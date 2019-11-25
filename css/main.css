@@ -32,17 +32,28 @@ body {
 }
 .pagewrap {
     display: flex;
+    margin-left: 190px
 }
 .sidebar {
     background-color: black;
     color: var(--grey-dark);
     font-family: var(--font-serif);
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: auto; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding: 10px;
     /* font-style: italic; */
 }
 .sidebarlist {
     list-style-type: none;
     padding: 15px;
-    line-height: 30px;
+    line-height: 30px; 
+    
 }
 img {
     border: solid .5px grey; 
@@ -88,7 +99,6 @@ h3 {
 a {
     text-decoration: none;
     display: inline-block;
-    background-color: var(--blue);
     color: inherit;
 }
 .footer__text {
